@@ -7,6 +7,8 @@
 
 Настроен Router перемещения файлов из каталога в каталог.
 
+Информация о выполненной опреции выводится в лог:
+
 ````text
 INFO 25344 --- [testarea/srcDir] route1 : headers: aaa.txt
 INFO 25344 --- [testarea/srcDir] route1 : exchange: Exchange[]
