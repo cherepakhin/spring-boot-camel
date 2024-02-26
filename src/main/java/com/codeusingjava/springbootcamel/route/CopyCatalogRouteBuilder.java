@@ -8,8 +8,8 @@ public class CopyCatalogRouteBuilder extends RouteBuilder {
 
 	@Override
 	public void configure() throws Exception {
-		from("file:/home/vasi/temp/testarea/srcDir")
-				.to("file:/home/vasi/temp/testarea/dstDir")
+		from("file:/tmp/testarea/srcDir")
+				.to("file:/tmp/testarea/dstDir")
 				.log("headers: ${headers.CamelFileName}")
 				.log("exchange: ${exchange}")
 				.log("id: ${id}")
