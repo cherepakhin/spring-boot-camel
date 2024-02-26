@@ -2,7 +2,7 @@
 
 Запуск
 ````shell
-./mvnw  spring-boot:run
+./mvnw spring-boot:run
 ````
 
 Настроен Router перемещения файлов из каталога в каталог.
