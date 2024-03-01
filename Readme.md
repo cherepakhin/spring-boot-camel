@@ -1,6 +1,24 @@
-## Опыты с Camel со Spring-Boot
+## Camel + Spring-Boot
 
 Похожий проект [https://github.com/cherepakhin/spring-boot-camel](https://github.com/cherepakhin/spring-boot-camel)
+
+Зависимости maven в pom.xml:
+
+````xml
+<dependency>
+    <groupId>org.apache.camel.springboot</groupId>
+    <artifactId>camel-spring-boot-starter</artifactId>
+    <version>3.8.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.camel.springboot</groupId>
+    <artifactId>camel-spring-boot-dependencies</artifactId>
+    <version>4.3.0</version>
+    <type>pom</type>
+    <scope>import</scope>
+</dependency>
+
+````
 
 Запуск
 ````shell
