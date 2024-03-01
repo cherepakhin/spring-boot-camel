@@ -11,7 +11,6 @@ public class CopyCatalogRouteBuilder extends RouteBuilder {
 		from("file:/tmp/testarea/srcDir")
 				.to("file:/tmp/testarea/dstDir1")
 				.to("file:/tmp/testarea/dstDir2")
-				.log("headers: ${headers.CamelFileName}")
 				.log("exchange: ${exchange}")
 				.log("id: ${id}")
 				.log("route id: ${routeId}")

@@ -75,4 +75,10 @@ INFO 16908 --- [ulticast/srcDir] route2  : exchange id: 02C05B4CFB394DC-00000000
 INFO 16908 --- [ulticast/srcDir] route2  : headers: {CamelFileAbsolute=true, CamelFileAbsolutePath=/tmp/testarea/multicast/srcDir/testfile.txt, CamelFileLastModified=1709278001061, CamelFileLength=5, CamelFileName=testfile.txt, CamelFileNameConsumed=testfile.txt, CamelFileNameOnly=testfile.txt, CamelFileParent=/tmp/testarea/multicast/srcDir, CamelFilePath=/tmp/testarea/multicast/srcDir/testfile.txt, CamelFileRelativePath=testfile.txt}
 ````
 
+Настройка log:
+
+````text
+
+````
+
 Если каталоги не существуют, то ни создаются. __"srcDir"__ при старте приложения, __"dstDir*"__ при выполнении копирования.
