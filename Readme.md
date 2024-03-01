@@ -1,6 +1,7 @@
 ## Опыты с Camel со Spring-Boot (+web Rest)
 
-Похожий проект, но без Rest Web [https://github.com/cherepakhin/spring-boot-camel](https://github.com/cherepakhin/spring-boot-camel) 
+Похожий проект, но без Rest Web [https://github.com/cherepakhin/spring-boot-camel](https://github.com/cherepakhin/spring-boot-camel)
+
 Запуск
 ````shell
 ./mvnw spring-boot:run
