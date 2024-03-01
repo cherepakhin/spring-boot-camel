@@ -55,7 +55,7 @@ CamelFileParent=/tmp/testarea/srcDir, CamelFilePath=/tmp/testarea/srcDir/bbb.txt
 
 ````
 
-### Перемещение файлов из каталога в НЕСКОЛЬКО каталогов (Multicast).
+### Перемещение файлов из каталога в НЕСКОЛЬКО каталогов через Multicast.
 
 [MulicastCopyCatalogRouteBuilder.java](https://github.com/cherepakhin/spring-boot-camel/blob/main/src/main/java/ru/perm/v/springbootcamel/route/MulicastCopyCatalogRouteBuilder.java)
 
