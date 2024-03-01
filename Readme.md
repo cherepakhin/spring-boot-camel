@@ -26,7 +26,9 @@
 ````shell
 ./mvnw spring-boot:run
 ````
-application.yaml:
+
+[application.yaml](https://github.com/cherepakhin/spring-boot-camel/blob/main/src/main/resources/application.yaml):
+
 ````shell
 camel:
     springboot:
