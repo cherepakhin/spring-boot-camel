@@ -67,12 +67,12 @@ from("file:/tmp/testarea/multicast/srcDir")
 log при копировании:
 
 ````text
-INFO 16908 --- [ulticast/srcDir] route2                                   : headers: testfile.txt
-INFO 16908 --- [ulticast/srcDir] route2                                   : exchange: Exchange[]
-INFO 16908 --- [ulticast/srcDir] route2                                   : id: 02C05B4CFB394DC-0000000000000001
-INFO 16908 --- [ulticast/srcDir] route2                                   : route id: route2
-INFO 16908 --- [ulticast/srcDir] route2                                   : exchange id: 02C05B4CFB394DC-0000000000000002
-INFO 16908 --- [ulticast/srcDir] route2                                   : headers: {CamelFileAbsolute=true, CamelFileAbsolutePath=/tmp/testarea/multicast/srcDir/testfile.txt, CamelFileLastModified=1709278001061, CamelFileLength=5, CamelFileName=testfile.txt, CamelFileNameConsumed=testfile.txt, CamelFileNameOnly=testfile.txt, CamelFileParent=/tmp/testarea/multicast/srcDir, CamelFilePath=/tmp/testarea/multicast/srcDir/testfile.txt, CamelFileRelativePath=testfile.txt}
+INFO 16908 --- [ulticast/srcDir] route2  : headers: testfile.txt
+INFO 16908 --- [ulticast/srcDir] route2  : exchange: Exchange[]
+INFO 16908 --- [ulticast/srcDir] route2  : id: 02C05B4CFB394DC-0000000000000001
+INFO 16908 --- [ulticast/srcDir] route2  : route id: route2
+INFO 16908 --- [ulticast/srcDir] route2  : exchange id: 02C05B4CFB394DC-0000000000000002
+INFO 16908 --- [ulticast/srcDir] route2  : headers: {CamelFileAbsolute=true, CamelFileAbsolutePath=/tmp/testarea/multicast/srcDir/testfile.txt, CamelFileLastModified=1709278001061, CamelFileLength=5, CamelFileName=testfile.txt, CamelFileNameConsumed=testfile.txt, CamelFileNameOnly=testfile.txt, CamelFileParent=/tmp/testarea/multicast/srcDir, CamelFilePath=/tmp/testarea/multicast/srcDir/testfile.txt, CamelFileRelativePath=testfile.txt}
 ````
 
 Если каталоги не существуют, то ни создаются. __"srcDir"__ при старте приложения, __"dstDir*"__ при выполнении копирования.
