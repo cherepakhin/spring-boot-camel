@@ -11,7 +11,8 @@
 
 [CopyCatalogRouteBuilder.java](https://github.com/cherepakhin/spring-boot-camel/blob/main/src/main/java/ru/perm/v/springbootcamel/route/CopyCatalogRouteBuilder.java)
 
-Копируются файлы из tmp/testarea/srcDir в tmp/testarea/dstDir
+Копируются файлы из __tmp/testarea/srcDir__ в __tmp/testarea/dstDir__.
+
 Информация о выполненной операции выводится в лог:
 
 ````text
