@@ -31,7 +31,7 @@
 
 [CopyCatalogRouteBuilder.java](https://github.com/cherepakhin/spring-boot-camel/blob/main/src/main/java/ru/perm/v/springbootcamel/route/CopyCatalogRouteBuilder.java)
 
-Последовательно выполняется копирование файлов из __tmp/testarea/srcDir__ в __tmp/testarea/dstDir1__, __tmp/testarea/dstDir2__.
+__Последовательно__ выполняется копирование файлов из __tmp/testarea/srcDir__ в __tmp/testarea/dstDir1__, __tmp/testarea/dstDir2__.
 
 ````shell
 from("file:/tmp/testarea/srcDir")
