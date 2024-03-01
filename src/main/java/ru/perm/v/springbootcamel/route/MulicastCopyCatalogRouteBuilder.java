@@ -15,7 +15,7 @@ public class MulicastCopyCatalogRouteBuilder extends RouteBuilder {
 				.log("id: ${id}")
 				.log("route id: ${routeId}")
 				.log("exchange id: ${exchangeId}")
-				.log("body: ${body}")
+//				.log("body: ${body}")
 				.log("headers: ${headers}")
 		;
 	}
