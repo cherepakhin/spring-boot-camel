@@ -8,7 +8,7 @@
 		<version>2.7.8</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.codusingjava</groupId>
+	<groupId>ru.perm.v</groupId>
 	<artifactId>spring-boot-camel</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-camel</name>

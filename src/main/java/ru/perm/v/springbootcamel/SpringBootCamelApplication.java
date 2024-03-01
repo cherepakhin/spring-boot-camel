@@ -1,4 +1,4 @@
-package com.codeusingjava.springbootcamel;
+package ru.perm.v.springbootcamel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,5 +1,6 @@
-## Опыты с Camel со Spring-Boot
+## Опыты с Camel со Spring-Boot (+web Rest)
 
+Похожий проект, но без Rest Web [https://github.com/cherepakhin/spring-boot-camel](https://github.com/cherepakhin/spring-boot-camel) 
 Запуск
 ````shell
 ./mvnw spring-boot:run
@@ -7,7 +8,7 @@
 
 ### Перемещение файлов из каталога в каталог.
 
-[CopyCatalogRouteBuilder.java](https://github.com/cherepakhin/spring-boot-camel/blob/main/src/main/java/com/codeusingjava/springbootcamel/route/CopyCatalogRouteBuilder.java)
+[CopyCatalogRouteBuilder.java](https://github.com/cherepakhin/spring-boot-camel/blob/main/src/main/java/ru/perm/v/springbootcamel/route/CopyCatalogRouteBuilder.java)
 
 Копируются файлы из tmp/testarea/srcDir в tmp/testarea/dstDir
 Информация о выполненной операции выводится в лог:

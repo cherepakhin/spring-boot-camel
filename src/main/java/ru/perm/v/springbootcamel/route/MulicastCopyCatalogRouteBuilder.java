@@ -1,4 +1,4 @@
-package com.codeusingjava.springbootcamel.route;
+package ru.perm.v.springbootcamel.route;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
