@@ -38,10 +38,10 @@ camel:
 Запускает контроллер Camel и заменяет:
 
 ````shell
-       val context = DefaultCamelContext()
-        context.addRoutes(camelCopyFileRoute)
-        context.start()
-        context.stop()
+val context = DefaultCamelContext()
+context.addRoutes(camelCopyFileRoute)
+context.start()
+context.stop()
 ````
 
 (см. [https://github.com/cherepakhin/camel_rest](https://github.com/cherepakhin/camel_rest/blob/dev/src/main/kotlin/ru/perm/v/camelrest/rest/CamelConvertorCtrl.kt))
