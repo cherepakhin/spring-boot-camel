@@ -1,6 +1,6 @@
-## Опыты с Camel со Spring-Boot (+web Rest)
+## Опыты с Camel со Spring-Boot
 
-Похожий проект, но без Rest Web [https://github.com/cherepakhin/spring-boot-camel](https://github.com/cherepakhin/spring-boot-camel)
+Похожий проект [https://github.com/cherepakhin/spring-boot-camel](https://github.com/cherepakhin/spring-boot-camel)
 
 Запуск
 ````shell
@@ -27,4 +27,13 @@ CamelFileLastModified=1708942640944, CamelFileLength=6, CamelFileName=bbb.txt, C
 CamelFileNameOnly=bbb.txt, CamelFileNameProduced=/tmp/testarea/dstDir/bbb.txt,
 CamelFileParent=/tmp/testarea/srcDir, CamelFilePath=/tmp/testarea/srcDir/bbb.txt, CamelFileRelativePath=bbb.txt}
 
+````
+
+### Перемещение файлов из каталога в НЕСКОЛЬКО каталогов (Multicast).
+
+[MulicastCopyCatalogRouteBuilder.java](https://github.com/cherepakhin/spring-boot-camel/blob/main/src/main/java/ru/perm/v/springbootcamel/route/MulicastCopyCatalogRouteBuilder.java)
+
+````shell
+from("file:/tmp/testarea/multicast/srcDir")
+				.multicast().to(baseDstDir+"/dstDir1", baseDstDir+"/dstDir2")
 ````

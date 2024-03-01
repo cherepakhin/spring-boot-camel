@@ -9,10 +9,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.perm.v</groupId>
-	<artifactId>spring-boot-camel</artifactId>
+	<artifactId>spring-boot-rest-camel</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-camel</name>
-	<description>Demo project for Spring Boot</description>
+	<name>spring-boot-rest-camel</name>
+	<description>Spring Boot App with Camel and Rest</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
