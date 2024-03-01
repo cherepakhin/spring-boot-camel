@@ -2,6 +2,8 @@
 
 Похожий проект [https://github.com/cherepakhin/spring-boot-camel](https://github.com/cherepakhin/spring-boot-camel)
 
+### Настройка.
+
 Зависимости maven в pom.xml:
 
 ````xml
