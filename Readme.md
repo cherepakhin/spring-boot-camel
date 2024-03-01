@@ -35,7 +35,7 @@ CamelFileParent=/tmp/testarea/srcDir, CamelFilePath=/tmp/testarea/srcDir/bbb.txt
 
 ````shell
 from("file:/tmp/testarea/multicast/srcDir")
-				.multicast().to(baseDstDir+"/dstDir1", baseDstDir+"/dstDir2")
+.multicast().to(baseDstDir+"/dstDir1", baseDstDir+"/dstDir2")
 ````
 
 log при копировании:
