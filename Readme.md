@@ -37,3 +37,10 @@ CamelFileParent=/tmp/testarea/srcDir, CamelFilePath=/tmp/testarea/srcDir/bbb.txt
 from("file:/tmp/testarea/multicast/srcDir")
 				.multicast().to(baseDstDir+"/dstDir1", baseDstDir+"/dstDir2")
 ````
+
+````text
+INFO 13161 --- [ulticast/srcDir] route2                                   : headers: {CamelFileAbsolute=true, CamelFileAbsolutePath=/tmp/testarea/multicast/srcDir/Readme.md, CamelFileLastModified=1709276573100, CamelFileLength=918, CamelFileName=Readme.md, CamelFileNameConsumed=Readme.md, CamelFileNameOnly=Readme.md, CamelFileParent=/tmp/testarea/multicast/srcDir, CamelFilePath=/tmp/testarea/multicast/srcDir/Readme.md, CamelFileRelativePath=Readme.md}
+
+````
+
+Если каталоги не существуют, то ни создаются. __"srcDir"__ при старте приложения, __"dstDir*"__ при выполнении копирования.
